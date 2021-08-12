@@ -1,0 +1,38 @@
+#principalText h1{
+    display: inline;
+    position:absolute;
+    top: 30px;
+    right: 250px;
+    text-align: center;
+    width: 300px;
+       
+}
+
+header{
+    background-color: grey;
+    height: 50px;
+}
+
+header h1{
+    font-size: 40px;
+    margin-right: 500px;
+}
+
+nav{
+    position: absolute;
+    top: 10px;
+    right: 15px
+
+}
+
+nav li{
+    display: inline;
+}
+
+nav a{
+    
+    text-decoration:none;
+    text-transform: uppercase;
+    color: black;
+
+}
