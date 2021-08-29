@@ -1,38 +1,29 @@
-#principalText h1{
-    display: inline;
-    position:absolute;
-    top: 30px;
-    right: 250px;
-    text-align: center;
-    width: 300px;
-       
+body{
+    background-color: #d9d9d9;
 }
 
-header{
-    background-color: grey;
-    height: 50px;
-}
-
-header h1{
-    font-size: 40px;
-    margin-right: 500px;
-}
-
-nav{
-    position: absolute;
-    top: 10px;
-    right: 15px
-
-}
-
-nav li{
-    display: inline;
-}
-
-nav a{
+#banner{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 50px;
+    border-radius: 0px 25px 25px 0px;
     
-    text-decoration:none;
-    text-transform: uppercase;
-    color: black;
-
 }
+
+.tituloSobreNos{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 30px;
+    margin: 3em 0 0 20%;
+    text-align: center;
+}
+
+.textoSobreNos{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 25px;
+    height: 300px;
+}
+
+
+
