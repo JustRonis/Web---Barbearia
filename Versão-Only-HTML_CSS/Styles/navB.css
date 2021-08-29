@@ -1,0 +1,57 @@
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    height: 70px;
+    width: 100%;
+    margin-bottom: 15px;
+    
+}
+
+#navTitle{
+	display: inline-block;
+    position: absolute;
+    font-size: 40px;
+    top: 15px;
+    right: 50%;
+
+}
+#navTitle:hover{
+    animation-name: hover;
+    animation-duration: 4s;
+}
+@keyframes hover {
+    from{color: #ffff00}
+    to{color:black;}
+}
+
+
+nav{
+    position: absolute;
+    top: 24px;
+    padding-bottom: 50px;
+    
+    
+
+}
+
+nav li{
+    display: inline;
+    margin: 15px;
+    font-size: 22px;
+}
+
+nav a{
+    
+    text-decoration:none;
+    text-transform: uppercase;
+    color: black;
+
+}
+
+nav li:hover{
+    color:  #000000;
+    font-weight: bold;
+
+}
