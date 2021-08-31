@@ -1,29 +1,78 @@
 body{
     background-color: #d9d9d9;
+    font-family: 'Abel', sans-serif;
+    background-image: url("/imagens/back.jpg");
 }
 
 #banner{
     margin: 0 auto;
+    margin-right: 20px;
+    float: left;
     width: 50%;
-    margin-top: 50px;
+    margin-top: 90px;
     border-radius: 0px 25px 25px 0px;
     
 }
 
+
 .tituloSobreNos{
-    display: inline-block;
-    vertical-align: top;
-    font-size: 30px;
-    margin: 3em 0 0 20%;
+    display: inline-block; 
+    margin-top: 0.7em;
     text-align: center;
+    font-size: 110px;
+    font-family: 'Allison', cursive;
+    margin-left: 20%;
+    color: white;
+
 }
 
 .textoSobreNos{
-    display: inline-block;
+    color:white;
+    font-weight: bold;
     vertical-align: top;
     font-size: 25px;
-    height: 300px;
+    margin-top: 20px;
+    
+
+
 }
 
+.beneficios{
+    display: inline-block;
+    border-radius: 60px 60px 60px 60px;
+    margin-left: 250px;  
+    height: 40em;
+    width: 50em;
+}
+
+.beneficios ul{
+    margin-top: 90px;
+}
+.beneficios li{
+    
+    font-size: 25px;
+    margin: 80px 0 0 250px;
+    color: white;
+    
+    
+}
+
+#animation {
+    background: #8A4623;
+  }
+  
+.beneficios:hover{
+    opacity : 0.5; 
+    transition: 1.8s;
+    
+
+}
+
+.beneficios li:hover{
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+    opacity: 1;
+}
 
 

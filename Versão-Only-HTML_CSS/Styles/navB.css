@@ -2,38 +2,37 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: grey;
+    background-color: #392613;
     height: 70px;
     width: 100%;
-    margin-bottom: 15px;
+    color: white;
     
+    
+
 }
 
 #navTitle{
 	display: inline-block;
     position: absolute;
-    font-size: 40px;
-    top: 15px;
+    font-size: 70px;
     right: 50%;
+    font-family: 'Allison', cursive;
 
 }
 #navTitle:hover{
     animation-name: hover;
     animation-duration: 4s;
+    transition: background 1s;
 }
 @keyframes hover {
-    from{color: #ffff00}
-    to{color:black;}
+    from{color: #8A4623}
+    to{color:white;}
 }
-
 
 nav{
     position: absolute;
     top: 24px;
     padding-bottom: 50px;
-    
-    
-
 }
 
 nav li{
@@ -46,12 +45,14 @@ nav a{
     
     text-decoration:none;
     text-transform: uppercase;
-    color: black;
+    color: white;
 
 }
 
 nav li:hover{
     color:  #000000;
     font-weight: bold;
+    font-size: 25px;
+    transition: 0.3s;
 
 }
