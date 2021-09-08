@@ -42,6 +42,8 @@ body {
   margin-left: 250px;
   height: 40em;
   width: 50em;
+  box-shadow: 10px 10px 5px black;
+  
 }
 
 .beneficios ul {
@@ -56,8 +58,11 @@ body {
   display: block;
 }
 
+
+
 #animation {
-  background: #8a4623;
+  
+  background: rgba(41, 27, 0, 0.3);
 }
 
 #animation:hover {
@@ -141,6 +146,7 @@ body {
 .produtos li:hover{
     border: 4px solid green;
     opacity: 1;
+    font-weight: bold;
 
 }
 
@@ -159,7 +165,8 @@ body {
 .precoProduto{
     font-size: 22px;
     font-weight: bold;
-    margin:50px 0 0 
+    margin:50px 0 0;
+    text-decoration: underline;
 }
 
 
@@ -167,3 +174,5 @@ body {
     font-style: italic;
     font-size: 18px;
 }
+
+
